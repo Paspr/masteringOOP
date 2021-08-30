@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace tempBob
+namespace AbstractDataType
 {
     public class Node
     {
