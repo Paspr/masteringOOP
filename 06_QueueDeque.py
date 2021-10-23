@@ -56,7 +56,6 @@ class Deque(ParentQueue):
     # postcondition: the new item is added to the deque's head
     def addFront(self, item):
         self.storage.insert(0, item)
-        pass
     
     def removeTail(self):
         return super().Dequeue()
