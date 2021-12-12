@@ -49,7 +49,7 @@ class BloomFilter:
         for c in str1:
             code = ord(c)
             result = (result * 17 + code) % 32;
-        print(' result hash1 ', result)        
+        #print(' result hash1 ', result)        
         return result
 
     def hash2(self, str1):
@@ -57,7 +57,7 @@ class BloomFilter:
         for c in str1:
             code = ord(c)
             result = (result * 223 + code) % 32;
-        print(' result hash2 ', result)    
+        #print(' result hash2 ', result)    
         return result
 
      # command
