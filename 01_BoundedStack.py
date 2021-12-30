@@ -6,15 +6,15 @@ class BoundedStack:
         self.pop_status
         self.stackSize = stackSize
    
-    POP_NIL = 0
-    POP_OK = 1
-    POP_ERR = 2
-    PEEK_NIL = 0
-    PEEK_OK = 1
-    PEEK_ERR = 2
-    PUSH_NIL = 0
-    PUSH_OK = 1
-    PUSH_ERR = 2
+    POP_NIL = 0 # pop haven't been called yet
+    POP_OK = 1 # pop was successful
+    POP_ERR = 2 # pop was not successful
+    PEEK_NIL = 0 # peek haven't been called yet
+    PEEK_OK = 1 # peek was successful
+    PEEK_ERR = 2 # peek was not successful
+    PUSH_NIL = 0 # push haven't been called yet
+    PUSH_OK = 1 # push was successful
+    PUSH_ERR = 2 # push was not successful
     
     def clear(self):
         self.stack = []
